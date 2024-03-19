@@ -1,10 +1,12 @@
 <div align= "center">
 </div>
-
+<div align= "center">
 <div style="text-align: center;">
     <img src="/public/android-chrome-512x512.png" width="60">
 
 # 1차 프로젝트 투두리스트&캘린더 - MIMI
+
+<div align="center">
 
 #### 기획의도
 
@@ -18,7 +20,7 @@
 <h3>시연영상</h3>
 <div align="center">
  <p>
-      <!-- <img src="/public/DemoVideo.gif"/> -->
+      <img src="/public/DemoVideo.gif"/>
     </p>
 
 ---
@@ -38,7 +40,7 @@
 
 ### 프로젝트 기간
 
-2024.02.09 ~ 2024.03.08
+2023.11.27 ~ 2023.12.29
 
 </div>
 
@@ -49,25 +51,21 @@
 
 #### 송보경 (팀장)
 
-git 관리
-공용 컴포넌트(header, footer)
-Router 관리
-Figma 작업
-메인 페이지
-상품관리 탭
+이모션 페이지
+about 페이지
+PPT
 
 #### 김도현 (팀원)
 
-회원관리 탭
-(회원 정보 , 가입 통계)
-로그인 페이지
-공용 컴포넌트 작업
+차트 페이지
+404 페이지
+Figma
 
 #### 김주영 (팀원)
 
-사용자 메인화면 관리 탭
-매출 및 통계 탭
-리뷰관리 탭
+로그인 페이지
+Basic Layout 카테고리
+Todo-list / 캘린더
 
 ---
 
