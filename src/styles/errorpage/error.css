@@ -1,0 +1,58 @@
+.error-wap {
+  position: relative;
+  min-width: 1024px;
+  min-height: 960px;
+  display: flex;
+  justify-content: center;
+  overflow-y: hidden;
+  margin: auto;
+}
+
+.error-mainbox {
+  position: relative;
+  width: 800px;
+  height: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+.error-title {
+  position: relative;
+  display: flex;
+  font-size: 25px;
+  margin-left: 58px;
+}
+
+img {
+  position: relative;
+  width: 75px;
+  height: 72px;
+}
+
+hr {
+  width: 660px;
+  margin-left: 60px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #03072e;
+  margin-top: -15px;
+}
+
+.error-middle {
+  position: relative;
+  margin-top: 50px;
+  font-size: 25px;
+}
+
+.error-button {
+  position: relative;
+  font-size: 20px;
+  margin-top: 60px;
+  background: #03072e;
+  border: none;
+  color: #fff;
+  width: 150px;
+  height: 60px;
+  cursor: pointer;
+  border-radius: 60px;
+}

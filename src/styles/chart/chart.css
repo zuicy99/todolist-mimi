@@ -1,0 +1,200 @@
+/* @import url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff"); */
+
+.chart-page {
+  position: relative;
+  min-width: 1024px;
+  min-height: 960px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-y: hidden;
+}
+
+.main-box {
+  position: relative;
+  width: 1651px;
+  height: 901px;
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+  background: #00042d;
+  border-radius: 20px;
+}
+
+.box-inner {
+  position: relative;
+  width: 1589px;
+  height: 814px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 50px 0px 0px 100px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+.feel-facebox {
+  position: relative;
+  width: 1241px;
+  height: 240px;
+}
+.feel-title {
+  position: relative;
+  width: 450px;
+  height: 85px;
+}
+.feel-title p {
+  width: 690px;
+  font-family: "S-CoreDream-3Light";
+  font-size: 30px;
+  margin-left: 50px;
+}
+.feel-face {
+  position: relative;
+  width: 1241px;
+  height: 240px;
+  margin-left: 60px;
+}
+.feel-face ul {
+  display: flex;
+  justify-content: space-between;
+}
+.feel-face li:hover {
+  width: 125px;
+  height: 80px;
+  background-color: #fcd0cf;
+  border-radius: 50%;
+}
+.feel-face img {
+  position: relative;
+  width: 125px;
+  height: 177px;
+  display: block;
+}
+.feel-face p {
+  position: relative;
+  display: block;
+  font-family: "S-CoreDream-3Light";
+  font-size: 20px;
+  text-align: center;
+}
+
+.half-line {
+  position: absolute;
+  top: 375px;
+  width: 1335px;
+  margin-left: 60px;
+  border-width: 0.1px;
+  border-style: solid;
+  border-color: #5f5f5f;
+}
+
+.arrow {
+  position: absolute;
+  bottom: 355px;
+  right: 770px;
+  width: 40px;
+  height: 37px;
+  opacity: 70%;
+  transform: rotate(-90deg);
+}
+
+.line-chartkeyword {
+  position: absolute;
+  bottom: 365px;
+  left: 816px;
+  font-size: 13px;
+  color: #646464;
+}
+
+.feel-chart {
+  position: relative;
+  width: 780px;
+  height: 350px;
+  display: flex;
+}
+
+.feel-keywordbox {
+  position: relative;
+
+  width: 550px;
+  height: 312px;
+  margin-right: 70px;
+  margin-bottom: 10px;
+}
+
+.keyword-title {
+  position: relative;
+  padding-top: 20px;
+  width: 285px;
+  height: 50px;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+}
+.keyword-title p {
+  font-family: "S-CoreDream-3Light";
+  font-size: 20px;
+}
+
+.keyword-inner {
+  position: relative;
+  width: 550px;
+}
+
+.feel-keywordbox ul {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.feel-keywordbox li {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+.feel-keywordbox li .keyword_left {
+  width: 20%;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 10px;
+  text-align: center;
+}
+.feel-keywordbox li .keyword_left img {
+  width: 65px;
+  height: 65px;
+}
+.feel-keywordbox li .keyword_left p {
+  font-size: 15px;
+}
+.feel-keywordbox li .keyword_right {
+  position: relative;
+  width: 80%;
+  display: flex;
+}
+.feel-keywordbox li .keyword_right span {
+  width: 100%;
+  height: 20px;
+  display: block;
+  margin-top: 25px;
+  border-radius: 20px;
+}
+.feel-keywordbox li .keyword_right p {
+  position: absolute;
+  top: 20%;
+  left: 98%;
+  margin-left: auto;
+  font-size: 20px;
+  font-weight: 600;
+}
+.barGood {
+  background-color: #ffac33;
+}
+.barNormal {
+  background-color: #00bcf2;
+}
+.barBad {
+  background-color: #8d65c5;
+}

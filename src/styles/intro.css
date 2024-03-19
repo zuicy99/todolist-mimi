@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap");
+@import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+
+.jejumyeongjo * {
+  font-family: "Jeju Myeongjo", serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.layoutl {
+  /* position: relative; */
+  /* width: 1440px; */
+  width: 100%;
+  /* height: 1024px; */
+  height: 100vh;
+
+  background-image: linear-gradient(to right, #fff 50%, #00042d 50%);
+}
+
+.intro-header {
+  position: relative;
+  display: flex;
+  height: 394px;
+
+  margin-right: 37px;
+  /* margin-bottom: 195px; */
+  /* padding-top: 90px; */
+  justify-content: center;
+}
+.int-tit-left {
+  color: #00042d;
+  margin-top: 90px;
+}
+.int-tit-right {
+  color: white;
+  margin-top: 90px;
+}
+.intro-header p {
+  height: 109px;
+  font-size: 80px;
+}
+
+.intro-mainlog {
+  position: relative;
+  display: block;
+  /* width: 720px; */
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+.intro-mainlog img {
+  width: 85px;
+  height: 86px;
+}
+
+.intro-mainlog ul {
+  /* display: flex; */
+}
+.intro-mainlog ul p {
+  display: block;
+  color: #989898;
+  font-family: Noto Sans;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.intro-mainlog {
+  display: block;
+}
+
+.intro-select {
+  display: block;
+  margin-top: 18px;
+}
+
+.intro-select p {
+  margin-top: 18px;
+}
+
+.intro-select input {
+  width: 529px;
+  height: 53px;
+  font-size: 25px;
+  color: #a3a3a3;
+  border: 1px solid #afafaf;
+}
+.intro-select input::placeholder {
+  font-size: 25px;
+  color: #a3a3a3;
+  padding-left: 20px;
+  margin-top: 100px;
+}
+
+.intro-select select {
+  margin-top: 18px;
+  width: 530px;
+  height: 53px;
+  color: #a3a3a3;
+  font-size: 25px;
+  padding-left: 15px;
+  border: 1px solid #afafaf;
+}
+
+.intro-r {
+  position: relative;
+
+  /* width: 720px; */
+  width: 50%;
+
+  text-align: center;
+  float: right;
+
+  top: calc();
+  /* padding-top: 90px; */
+}
+
+.intro-r img {
+  width: 85px;
+  height: 86px;
+}
+.intro-r p {
+  color: #fff;
+
+  font-family: JejuMyeongjo;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.4;
+}

@@ -1,0 +1,98 @@
+.aboutwrap {
+  position: relative;
+  display: flex;
+  min-width: 1024px;
+  min-height: 960px;
+  /* background: red; */
+  background-image: linear-gradient(to right, #fff 50%, #00042d 50%);
+}
+
+.service {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+.service_movie {
+  position: relative;
+  text-align: center;
+}
+
+.service_introduction {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  color: #ffffff;
+}
+.service_fe {
+  position: relative;
+  width: 100%;
+  padding: 50px;
+ 
+}
+
+
+.service_fe p {
+  position: relative;
+  font-size: 25px;
+}
+
+.service_fe ul{
+position: relative;
+font-size: 20px;
+
+}
+
+.b_tag{
+position:relative;
+border-top: 1px solid #fff; /* 선 색 및 스타일 설정 */
+width: 100%; /* 수평 선의 길이를 부모 요소의 100%로 설정 */
+margin: 10px 0; /* 필요에 따라 여백을 조절합니다. */
+border: 1px solid rgba(110, 108, 108, 0.5);
+
+}
+
+.service_fe li{
+  position: relative;
+  
+} 
+.a_tag{
+  position: relative;
+  color: #fff;
+}
+
+ .service_fe::after {
+  content: "";
+  position: absolute;
+  display: block;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, -50%);
+  width: 85%;
+  height: 6px;
+  background: #fff;
+  opacity: 0.7;
+} 
+.service_be {
+  width: 100%;
+  padding: 50px;
+}
+
+.service_be p{
+  position: relative;
+  font-size: 25px;
+}
+
+
+.service_be ul{
+  position: relative;
+  font-size: 20px;
+  
+
+}
+
+.service_be li{
+  position: relative;
+}
