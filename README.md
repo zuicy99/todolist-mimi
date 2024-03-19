@@ -23,7 +23,7 @@
       <img src="/public/DemoVideo.gif"/>
     </p>
 
----
+
 
 <div align="center">
 <h3>배포</h3>
@@ -36,7 +36,7 @@
 </div>
 </div>
 
----
+
 
 ### 프로젝트 기간
 
@@ -44,7 +44,7 @@
 
 </div>
 
----
+
 
 <div align="center">
 <h3> 💻개발파트💻 </h3>
