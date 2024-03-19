@@ -34,6 +34,8 @@
 </div>
 </div>
 
+<br>
+<br>
 
 
 ### 프로젝트 기간
@@ -42,7 +44,8 @@
 
 </div>
 
-
+<br>
+<br>
 
 <div align="center">
 <h3> 💻개발파트💻 </h3>
@@ -65,6 +68,8 @@ Figma
 Basic Layout 카테고리<br>
 Todo-list / 캘린더
 
+<br>
+<br>
 ---
 
 </div>
